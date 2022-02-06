@@ -82,7 +82,7 @@ const App = ({ isServerInfo }) => {
             defaultSelectedKeys={["nftMarket"]}
           >
             <Menu.Item key="nftMarket" onClick={() => setInputValue("explore")} >
-              <NavLink to="/NFTMarketPlace">🛒 Explore Market</NavLink>
+              <NavLink to="/NFTMarketPlace">🛒 Explore Carbon DAO NFTs</NavLink>
             </Menu.Item>
             <Menu.Item key="nft">
               <NavLink to="/nftBalance">🖼 Your Collection</NavLink>
